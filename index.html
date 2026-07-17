@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="top-bar">
+            <i id="expandBtn" class="material-icons">expand_more</i>
+            <div class="title"><span class="music">🎧Music</span><span class="playlist">PlayList</span></div>
+
+            <i id="menuBtn" class="material-icons">more_vert</i>
+        </div>
+        <div class="menu-box">
+            <p id="homeBtn">🏠 Home</p>
+            <p id="settingsBtn">⚙ Settings</p>
+            <p id="muteBtn">🔊 Volume</p>
+        </div>
+
+        <div class="img-area">
+            <img class="song-img" src="images/song1.jpg" alt="music">
+        </div>
+
+        <div class="song-details">
+            <p class="name">Hilesa Hilesa</p>
+            <p class="artist">DSP</p>
+            <div class="equalizer">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="progress-area">
+            <div class="progress-bar"></div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration">0:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <i id="repeat" class="material-icons">repeat</i>
+            <i id="prev" class="material-icons">skip_previous</i>
+
+            <div class="play-pause">
+                <i class="material-icons">play_arrow</i>
+            </div>
+
+            <i id="next" class="material-icons">skip_next</i>
+            <i id="queue" class="material-icons">queue_music</i>
+        </div>
+
+        <!-- MUSIC LIST -->
+        <div class="music-list">
+            <div class="header">
+                <div class="title"><span class="music">Songs</span><span class="playlist">List</span>
+                    <i id="close" class="material-icons">close</i></div>
+            </div>
+
+            <ul>
+                <li data-index="0">Hilesa Hilesa - DSP</li>
+                <li data-index="1">Mallika Gandha - Sid Sriram</li>
+                <li data-index="2">Yeedhe.. - Rambabu</li>
+                <li data-index="3">Prema Velluva - Sidsriram</li>
+                <li data-index="4">Sasirekha - Bheems Ceciroleo,Madhu Priya</li>
+                <li data-index="5">Godari Gattu - Ramana Gogula,Madhu Priya</li>
+                <li data-index="6">Uppenantha- K.K</li>
+                <li data-index="7">Crazy Feeling - Prudhvi chandra</li>
+                <li data-index="8">Love - LV Revanth,Sahithi</li>
+                <li data-index="9">Inthandham - SPB Charan</li>
+                <li data-index="10">Inkem Inkem Inkem Kaavale - Sid Sriram</li>
+                <li data-index="11">Niluvadhamu Ninu Epudaina - Karthik,Sumangali</li>
+
+            </ul>
+        </div>
+        <!-- VOLUME CONTROL -->
+        <div class="volume-box">
+            <i id="volumeIcon" class="material-icons">volume_up</i>
+            <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+        </div>
+
+
+        <audio id="main-audio"></audio>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
