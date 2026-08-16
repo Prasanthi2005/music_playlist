@@ -216,7 +216,7 @@ music-playlist/
 
 The initial interface presents the application branding with a compact player header and a clean, minimal layout.
 
-![MusicPlaylist Compact Player](assets/playlist-collapsed.png)
+![MusicPlaylist Compact Player](assests/player-compact.png)
 
 ---
 
@@ -224,7 +224,7 @@ The initial interface presents the application branding with a compact player he
 
 The expanded player focuses on album artwork, track information, playback controls, progress, and volume management.
 
-![MusicPlaylist Main Player](assets/player-main.png)
+![MusicPlaylist Main Player](assests/player-navigation.png)
 
 ---
 
@@ -232,7 +232,7 @@ The expanded player focuses on album artwork, track information, playback contro
 
 The interface includes quick navigation options for Home, Settings, and Volume while keeping the main player visually prominent.
 
-![MusicPlaylist Navigation](assets/player-navigation.png)
+![MusicPlaylist Navigation](assests/player-playing.png)
 
 ---
 
@@ -240,7 +240,7 @@ The interface includes quick navigation options for Home, Settings, and Volume w
 
 The playing state provides clear visual feedback through the pause control, progress position, timing information, and volume control.
 
-![MusicPlaylist Playing State](assets/player-playing.png)
+![MusicPlaylist Playing State](assests/playlist-collapsed.png)
 
 ---
 
@@ -248,7 +248,7 @@ The playing state provides clear visual feedback through the pause control, prog
 
 The playlist panel provides a simple way to browse available tracks and select the desired song.
 
-![MusicPlaylist Songs List](assets/songs-list.png)
+![MusicPlaylist Songs List](assests/song-list.png)
 
 ---
 
